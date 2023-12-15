@@ -8,7 +8,7 @@ data class RestaurantMenuItemEntity(
     @PrimaryKey val id: Int,
     val title: String,
     val description: String,
-    val category: Int,
+    val category: String,
     val image: String,
 )
 

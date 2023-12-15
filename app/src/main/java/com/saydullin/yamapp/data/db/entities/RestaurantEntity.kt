@@ -5,8 +5,9 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class RestaurantEntity(
-    @PrimaryKey val id: Int,
+    @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val menu: List<RestaurantMenuItemEntity>,
+    val address: String,
     val title: String,
     val description: String,
     val image: String,

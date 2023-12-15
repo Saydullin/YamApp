@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "238696100377",
+    "project_id": "yamapp-708f7",
+    "storage_bucket": "yamapp-708f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238696100377:android:cd6246003522ce0bc0b088",
+        "android_client_info": {
+          "package_name": "com.saydullin.yamapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8iElk7F8zdteElj1657-6J_8VeTfKu84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

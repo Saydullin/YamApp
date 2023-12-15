@@ -3,7 +3,8 @@ package com.saydullin.yamapp.presentation
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.compose.setContent
-import com.saydullin.yamapp.presentation.pages.MainPage
+import com.saydullin.yamapp.presentation.navigation.NavController
+import com.saydullin.yamapp.presentation.pages.AuthAdapterPage
 import com.saydullin.yamapp.presentation.ui.theme.YamClassicTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         setContent {
             YamClassicTheme {
-                MainPage()
+                NavController()
             }
         }
 
